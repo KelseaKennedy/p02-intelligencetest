@@ -1,0 +1,25 @@
+body
+{background-color: seagreen; } 
+
+h1 { font-family: "comic sans ms",cursive,sans-serif; text-align:center; color: oldlace; }
+h2  { font-family: "comic sans ms",cursive,sans-serif; text-align:center; color: oldlace; }
+
+
+p { text-align: center; }
+
+p { font-family: "comic sans ms", cursive, sans-serif; color: oldlace;}
+
+label { font-family: "comic sans ms", cursive, sans-serif; color: darkblue; }
+
+
+a { color: purple; }
+
+
+.hidden-message{
+  opacity: 0.0;
+}
+.shown-message{
+  opacity: 1.0;
+}
+/* Kelsea Kennedy */
+

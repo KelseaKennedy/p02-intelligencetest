@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- BOOTSTRAP (style only)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="intelligencestyle.css" />
+    <title>Intelligence Test</title>
+    <script type="text/javascript" src="puzzletests.js"></script>
+  </head>
+  <body lang="en-US">
+      <h1> Try Puzzle 1</h1>
+<div id="examples_puzzle1">
+  <p>1 + 12 = 131212 </p>
+  <p>2 + 14 = 16728</p>
+  <p>3 + 18 = 21654</p>
+  <p>4 + 24 = 28696</p>
+  <p>5 + 35 = 407175</p>
+</div>
+<div id="question_puzzle1">
+  <h2>Your turn!</h2>
+  <h2><b>6 + 54 = ?</b></h2>
+</div>
+      
+      
+      
+     <div class="container-fluid">
+     <form class="form-horizontal">
+      <div class="row">
+           <div class="col-sm-offset-2"> 
+        <h1>What do you think the answer is?</small></h1>
+        </div>
+          
+        </div> <!-- end heading row /-->
+        <div class="row myinput-row">
+          <div class="form-group" id="answerTry">
+          <label for="answer" class="col-sm-2 control-label">Answer</label>
+            <div class="col-sm-2">
+              <input type="text" id="guess" class="form-control input-md"
+                  placeholder="myanswerguess" onchange="validateAnswer1()"/>
+              <span id="answerError" class="control-label hidden-message">
+                
+              </span>
+            </div>
+          </div>
+        </div> <!-- end username row /-->
+    
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="button" class="btn btn-primary col-sm-1"
+              onclick="register1();"> <!-- Run JavaScript to validate input /-->
+              Register
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <p> <a href ="puzzle2.html"> Puzzle 2</a> </p>
+    <p> <a href ="puzzle3.html"> Puzzle 3</a> </p> 
+ </body>
+</html>
+
+<!--Kelsea Kennedy-->

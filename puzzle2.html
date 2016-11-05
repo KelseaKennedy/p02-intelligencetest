@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>  Intelligence Test </title>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="intelligencestyle.css" />
+    <script type="text/javascript" src="puzzletests.js"></script>
+</head>
+<body>
+    
+<h1> Try Puzzle 2</h1>
+<div id="examples_puzzle2">
+ <p>2 + 5 = 3710</p>
+ <p>4 + 9 = 51336</p>
+ <p>6 + 13 = 71978</p>
+ <p>8 + 17 = 925136</p>
+ <p>10 + 21 = 1131210</p>
+</div>
+  <div id="question_puzzle2">
+    <h2>Your turn!</h2>
+    <h2><b>22 + 34 = ?</b></h2>
+  </div>
+    <div>
+  <div class="container-fluid">
+     <form class="form-horizontal">
+      <div class="row">
+           <div class="col-sm-offset-2"> 
+        <h1>What do you think the answer is?</small></h1>
+        </div>
+          
+        </div> <!-- end heading row /-->
+        <div class="row myinput-row">
+          <div class="form-group" id="answerTry">
+          <label for="answer" class="col-sm-2 control-label">Answer</label>
+            <div class="col-sm-2">
+              <input type="text" id="guess" class="form-control input-md"
+                  placeholder="myanswerguess" onchange="validateAnswer2()"/>
+              <span id="answerError" class="control-label hidden-message">
+                
+              </span>
+            </div>
+          </div>
+        </div> <!-- end username row /-->
+    
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="button" class="btn btn-primary col-sm-1"
+              onclick="register2();"> <!-- Run JavaScript to validate input /-->
+              Register
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+   <p> <a href ="puzzle1.html"> Puzzle 1</a> </p> 
+   <p> <a href ="puzzle3.html"> Puzzle 3</a> </p>   
+</body>    
+</html>
+
+
+<!--Kelsea Kennedy-->
